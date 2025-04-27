@@ -6,9 +6,7 @@ export default function MyApp() {
     function handleClick() {
         setCount(count + 1);
     }
-
-
-
+    
     return (
         <div>
             <h1>欢迎来到我的应用</h1>
@@ -20,8 +18,6 @@ export default function MyApp() {
 }
 
 function MyButton({count, handleClick}) {
-
-
 
     return (
         <button onClick={handleClick}>

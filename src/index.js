@@ -4,11 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Board from "./Board";
+import SearchProduct from "./SearchProudct";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Board />
+    <SearchProduct />
   </React.StrictMode>
 );
 
