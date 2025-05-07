@@ -1,4 +1,6 @@
 import {getImageUrl} from "./Utils";
+// import './learn_props/style.css'
+
 
 export default function Profile() {
     return (

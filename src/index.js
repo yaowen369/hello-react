@@ -4,12 +4,13 @@ import './index.css';
 import './learn_props/style.css'
 import reportWebVitals from './reportWebVitals';
 
-import MyProfile from "./learn_props/Profile";
+
+import PackingList from "./picking_list/PickingList";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MyProfile />
+    <PackingList />
   </React.StrictMode>
 );
 
