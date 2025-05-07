@@ -5,12 +5,12 @@ import './learn_props/style.css'
 import reportWebVitals from './reportWebVitals';
 
 
-import PackingList from "./picking_list/PickingList";
+import List from "./learn_list/learn_list";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <PackingList />
+    <List />
   </React.StrictMode>
 );
 
