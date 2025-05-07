@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './learn_props/style.css'
 import reportWebVitals from './reportWebVitals';
-import MyApp from "./MyApp";
-import Gallery from "./Gallery";
-import TodoList from "./TodoList";
+
+import MyProfile from "./learn_props/Profile";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <TodoList />
+    <MyProfile />
   </React.StrictMode>
 );
 
