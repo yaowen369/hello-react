@@ -5,11 +5,12 @@ import './learn_props/style.css'
 import reportWebVitals from './reportWebVitals';
 
 import ButtonClick from "./learn_list/ButtonClick";
+import Gallery from "./adding_interactivity/Gallery";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ButtonClick />
+    <Gallery />
   </React.StrictMode>
 );
 
