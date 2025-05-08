@@ -4,13 +4,12 @@ import './index.css';
 import './learn_props/style.css'
 import reportWebVitals from './reportWebVitals';
 
-
-import List from "./learn_list/learn_list";
+import ButtonClick from "./learn_list/ButtonClick";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <List />
+    <ButtonClick />
   </React.StrictMode>
 );
 
