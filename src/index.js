@@ -6,12 +6,13 @@ import reportWebVitals from './reportWebVitals';
 
 import ButtonClick from "./learn_list/ButtonClick";
 import Gallery from "./adding_interactivity/Gallery";
+import Form from "./adding_interactivity/Form";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <Gallery />
-  </React.StrictMode>
+    <React.StrictMode>
+        <Form/>
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
