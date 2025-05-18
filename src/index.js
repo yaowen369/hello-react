@@ -4,14 +4,12 @@ import './index.css';
 import './learn_props/style.css'
 import reportWebVitals from './reportWebVitals';
 
-import ButtonClick from "./learn_list/ButtonClick";
-import Gallery from "./adding_interactivity/Gallery";
-import Form from "./adding_interactivity/Form";
+import Counter from "./adding_interactivity/Counter";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <Form/>
+        <Counter/>
     </React.StrictMode>
 );
 
