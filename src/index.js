@@ -4,13 +4,13 @@ import './index.css';
 import './learn_props/style.css'
 import reportWebVitals from './reportWebVitals';
 
-import Counter from "./adding_interactivity/Counter";
-import PersonForm from "./adding_interactivity/PersonForm";
+
+import BucketList from "./adding_interactivity/BucketList";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <PersonForm />
+        <BucketList />
     </React.StrictMode>
 );
 
