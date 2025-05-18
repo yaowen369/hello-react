@@ -8,11 +8,12 @@ import reportWebVitals from './reportWebVitals';
 import BucketList from "./adding_interactivity/BucketList";
 import CityTestForm from "./managing_state/CityTestForm";
 import NameForm from "./managing_state/NameForm";
+import Accordion from "./managing_state/Accordion";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <NameForm />
+        <Accordion />
     </React.StrictMode>
 );
 
