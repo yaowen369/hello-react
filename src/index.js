@@ -1,19 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import './learn_props/style.css'
+
 import reportWebVitals from './reportWebVitals';
 
 
-import BucketList from "./adding_interactivity/BucketList";
-import CityTestForm from "./managing_state/CityTestForm";
-import NameForm from "./managing_state/NameForm";
-import Accordion from "./managing_state/Accordion";
+import Messenger from "./managing_state/Messenger";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <Accordion />
+        <Messenger />
     </React.StrictMode>
 );
 
