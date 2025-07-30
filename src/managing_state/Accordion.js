@@ -1,8 +1,10 @@
 import './styles.css'
-import {useState} from "react";
+import {useRef, useState} from "react";
 
 export default function Accordion() {
-    const [activeIndex, setActiveIndex] = useState(0);
+    const [activeIndex, setActiveIndex] = useState(0)
+    const ref = useRef(0)
+
 
     return (
         <>

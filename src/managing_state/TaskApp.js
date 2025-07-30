@@ -16,19 +16,31 @@ export default function TaskApp() {
         ]);
     }
 
-    function handleChangeTask(task) {
-        setTasks(tasks.map( (t) => {
-            if (t.id === task.id) {
-                return task;
-            } else {
-                return t;
-            }
-        }));
-    }
+    /**
+ * 处理任务变更的函数
+ * 当任务列表中的任务发生变化时调用此函数，以更新任务列表
+ * @param {Object} task - 发生变更的任务对象，包含任务的详细信息
+ */
+function handleChangeTask(task) {
+    // 使用map方法遍历所有任务，寻找并更新与传入任务ID匹配的任务
+    setTasks(tasks.map( (t) => {
+        // 如果当前任务的ID与传入的任务ID相匹配，则用新的任务对象替换原有任务对象
+        if (t.id === task.id) {
+            return task;
+        } else {
+            // 对于ID不匹配的任务，保持不变
+            return t;
+        }
+    }));
+}
+
 
     function handleDeleteTask(taskId) {
         setTasks(tasks.filter((t) => t.id !== taskId));
     }
+
+
+
 
 
     return (
